@@ -3,7 +3,9 @@
         {
             "name": "Win32",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "C:/Program Files/LLVM/lib/clang/18/include",
+                "C:/Program Files (x86)/Windows Kits/10/Include/10.0.22621.0/ucrt"
             ],
             "defines": ["DEBUG"],
             "forcedInclude": [
